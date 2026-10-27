@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Vanta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/cart.js"></script>
+<body>
+
+<nav class="nav">
+    <div class="logo">Vanta</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="abaut.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart🛒</a></li>
+    </ul>
+</nav>
+
+<section class="products">
+    <h2>Products</h2>
+
+    <div class="product-grid">
+
+        <!-- White T-shirt -->
+        <div class="product-card">
+            <a href="#whiteT-popup">
+                <img src="images/White tshirt" alt="White T-shirt">
+            </a>
+
+            <div class="product-info">
+                <h3>White T-shirt</h3>
+                <p>$24.99</p>
+
+                <button type="button" class="btn add-to-cart"
+                    data-id="white-tshirt"
+                    data-name="White T-shirt"
+                    data-price="24.99"
+                    data-image="images/White tshirt">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Black T-shirt -->
+        <div class="product-card">
+            <a href="#blackT-popup">
+                <img src="images/blacktshirt" alt="Black T-shirt">
+            </a>
+
+            <div class="product-info">
+                <h3>Black T-shirt</h3>
+                <p>$24.99</p>
+
+                <button type="button" class="btn add-to-cart"
+                    data-id="black-tshirt"
+                    data-name="Black T-shirt"
+                    data-price="24.99"
+                    data-image="images/blacktshirt">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Nike Tech Hoodie -->
+        <div class="product-card">
+            <a href="#niketechhoodie-popup">
+                <img src="images/niketechhoodie" alt="Nike Tech Hoodie">
+            </a>
+
+            <div class="product-info">
+                <h3>Nike Tech Hoodie</h3>
+                <p>$55.00</p>
+
+                <button type="button" class="btn add-to-cart"
+                    data-id="nike-tech-hoodie"
+                    data-name="Nike Tech Hoodie"
+                    data-price="55"
+                    data-image="images/niketechhoodie">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Nike Tech Pants -->
+        <div class="product-card">
+            <a href="#niketechpants-popup">
+                <img src="images/niketechpants" alt="Nike Tech Pants">
+            </a>
+
+            <div class="product-info">
+                <h3>Nike Tech Pants</h3>
+                <p>$55.00</p>
+
+                <button type="button" class="btn add-to-cart"
+                    data-id="nike-tech-pants"
+                    data-name="Nike Tech Pants"
+                    data-price="55"
+                    data-image="images/niketechpants">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- popups  -->
+<div id="whiteT-popup" class="popup">
+    <a href="#" class="close" aria-label="Close popup"></a>
+    <img src="images/White tshirt" alt="White T-shirt">
+</div>
+
+
+<div id="blackT-popup" class="popup">
+    <a href="#" class="close" aria-label="Close popup"></a>
+    <img src="images/blacktshirt" alt="Black T-shirt">
+</div>
+
+
+<div id="niketechhoodie-popup" class="popup">
+    <a href="#" class="close" aria-label="Close popup"></a>
+    <img src="images/niketechhoodie" alt="Nike Tech Hoodie">
+</div>
+
+
+<div id="niketechpants-popup" class="popup">
+    <a href="#" class="close" aria-label="Close popup"></a>
+    <img src="images/niketechpants" alt="Nike Tech Pants">
+</div>
+
+<footer>
+    <p>© 2026 Vanta</p>
+    <p>Quality Clothes</p>
+</footer>
+
+<!-- Your JavaScript file -->
+<script src="js/cart.js"></script>
+
+</body>
+</html>
